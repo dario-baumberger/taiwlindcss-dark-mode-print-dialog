@@ -1,0 +1,26 @@
+{
+  "name": "taiwlindcss-dark-mode-print-dialog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tw": "npx tailwindcss -i ./src/style.css -o ./assets/style.css --watch",
+    "serve": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dario-baumberger/taiwlindcss-dark-mode-print-dialog.git"
+  },
+  "author": "Dario Baumberger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dario-baumberger/taiwlindcss-dark-mode-print-dialog/issues"
+  },
+  "homepage": "https://github.com/dario-baumberger/taiwlindcss-dark-mode-print-dialog#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

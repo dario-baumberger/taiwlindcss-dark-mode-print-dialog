@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body class="text-black dark:text-white bg-slate-100 dark:bg-slate-900">
+    <main>
+      <h1 class="text-black dark:text-white">Dark Mode Print</h1>
+      <p class="print:bg-red-100 print:text-green-500">BG Red on Print</p>
+      <p class="border border-black border-px dark:border-green-500">Borders</p>
+      <button
+        onclick="switchMode()"
+        class="rounded bg-black text-white dark:bg-white dark:text-black p-4 mt-4"
+      >
+        Switch Mode
+      </button>
+    </main>
+  </body>
+  <script>
+    function switchMode() {
+      var element = document.querySelector("html");
+      element.classList.toggle("dark");
+    }
+  </script>
+</html>
